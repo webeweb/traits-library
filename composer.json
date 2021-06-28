@@ -4,7 +4,7 @@
     "description": "Traits collection",
     "keywords": [
         "boolean",
-        "date/time",
+        "datetime",
         "float",
         "integer",
         "library",
