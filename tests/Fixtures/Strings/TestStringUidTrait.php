@@ -14,7 +14,7 @@ namespace WBW\Library\Traits\Tests\Fixtures\Strings;
 use WBW\Library\Traits\Strings\StringUidTrait;
 
 /**
- * Test string uid trait.
+ * Test string UID trait.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Traits\Tests\Fixtures\Strings

@@ -12,7 +12,7 @@
 namespace WBW\Library\Traits\Strings;
 
 /**
- * String uid trait.
+ * String UID trait.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Traits\Strings
@@ -20,25 +20,25 @@ namespace WBW\Library\Traits\Strings;
 trait StringUidTrait {
 
     /**
-     * Uid.
+     * UID.
      *
      * @var string|null
      */
     protected $uid;
 
     /**
-     * Get the uid.
+     * Get the UID.
      *
-     * @return string|null Returns the uid.
+     * @return string|null Returns the UID.
      */
     public function getUid(): ?string {
         return $this->uid;
     }
 
     /**
-     * Set the uid.
+     * Set the UID.
      *
-     * @param string|null $uid The uid.
+     * @param string|null $uid The UID.
      * @return self Returns this instance.
      */
     public function setUid(?string $uid): self {

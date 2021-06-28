@@ -15,7 +15,7 @@ use WBW\Library\Traits\Tests\AbstractTestCase;
 use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringUidTrait;
 
 /**
- * String uid trait test.
+ * String UID trait test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Traits\Tests\Strings
