@@ -3,7 +3,12 @@
     "type": "library",
     "description": "Traits collection",
     "keywords": [
+        "boolean",
+        "date/time",
+        "float",
+        "integer",
         "library",
+        "string",
         "traits",
         "webeweb"
     ],
