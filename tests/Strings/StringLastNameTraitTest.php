@@ -3,7 +3,7 @@
 /*
  * This file is part of the traits-library package.
  *
- * (c) 2021 WEBEWEB
+ * (c) 2019 WEBEWEB
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -20,7 +20,7 @@ use WBW\Library\Traits\Tests\Fixtures\Strings\TestStringLastNameTrait;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Traits\Tests\Strings
  */
-class StringLastnameTraitTest extends AbstractTestCase {
+class StringLastNameTraitTest extends AbstractTestCase {
 
     /**
      * Tests the setLastName() method.
