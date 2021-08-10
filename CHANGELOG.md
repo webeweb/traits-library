@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add string customer code trait
+
 ### [1.2.0](https://github.com/webeweb/traits-library/tree/v1.2.0) (2021-07-21)
 
 - Add composite point trait
