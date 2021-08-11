@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Composite;
+namespace WBW\Library\Traits\Tests\Compounds;
 
 use WBW\Library\Traits\Tests\AbstractTestCase;
-use WBW\Library\Traits\Tests\Fixtures\Composite\TestCompositePointTrait;
+use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundPointTrait;
 
 /**
- * Composite point trait test.
+ * Compound point trait test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Tests\Composite
+ * @package WBW\Library\Traits\Tests\Compounds
  */
-class CompositePointTraitTest extends AbstractTestCase {
+class CompoundPointTraitTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.
@@ -29,7 +29,7 @@ class CompositePointTraitTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestCompositePointTrait();
+        $obj = new TestCompoundPointTrait();
 
         $this->assertNull($obj->getX());
         $this->assertNull($obj->getY());

@@ -9,19 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Composite;
+namespace WBW\Library\Traits\Tests\Fixtures\Compounds;
 
-use WBW\Library\Traits\Floats\FloatXTrait;
-use WBW\Library\Traits\Floats\FloatYTrait;
+use WBW\Library\Traits\Compounds\CompoundPointTrait;
 
 /**
- * Composite point trait.
+ * Test Compound point trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Composite
+ * @package WBW\Library\Traits\Tests\Fixtures\Compounds
  */
-trait CompositePointTrait {
+class TestCompoundPointTrait {
 
-    use FloatXTrait;
-    use FloatYTrait;
+    use CompoundPointTrait;
 }
