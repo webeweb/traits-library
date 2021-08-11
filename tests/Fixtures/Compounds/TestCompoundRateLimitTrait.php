@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Fixtures\Composite;
+namespace WBW\Library\Traits\Tests\Fixtures\Compounds;
 
-use WBW\Library\Traits\Composite\CompositeRateLimitTrait;
+use WBW\Library\Traits\Compounds\CompoundRateLimitTrait;
 
 /**
- * Test composite rate limit trait.
+ * Test compounds rate limit trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Tests\Fixtures\Composite
+ * @package WBW\Library\Traits\Tests\Fixtures\Compounds
  */
-class TestCompositeRateLimitTrait {
+class TestCompoundRateLimitTrait {
 
-    use CompositeRateLimitTrait;
+    use CompoundRateLimitTrait;
 }

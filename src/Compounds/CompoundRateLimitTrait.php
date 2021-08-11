@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Composite;
+namespace WBW\Library\Traits\Compounds;
 
 use DateTime;
 
 /**
- * Composite rate limit trait.
+ * Compound rate limit trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Composite
+ * @package WBW\Library\Traits\Compounds
  */
-trait CompositeRateLimitTrait {
+trait CompoundRateLimitTrait {
 
     /**
      * Limit.

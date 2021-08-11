@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Composite;
+namespace WBW\Library\Traits\Tests\Compounds;
 
 use DateTime;
 use Exception;
 use WBW\Library\Traits\Tests\AbstractTestCase;
-use WBW\Library\Traits\Tests\Fixtures\Composite\TestCompositeRateLimitTrait;
+use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundRateLimitTrait;
 
 /**
- * Composite rate limit trait test.
+ * Compound rate limit trait test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Tests\Composite
+ * @package WBW\Library\Traits\Tests\Compounds
  */
-class CompositeRateLimitTraitTest extends AbstractTestCase {
+class CompoundRateLimitTraitTest extends AbstractTestCase {
 
     /**
      * Tests the setLimit() method.
@@ -31,7 +31,7 @@ class CompositeRateLimitTraitTest extends AbstractTestCase {
      */
     public function testSetLimit(): void {
 
-        $obj = new TestCompositeRateLimitTrait();
+        $obj = new TestCompoundRateLimitTrait();
 
         $obj->setLimit(1);
         $this->assertEquals(1, $obj->getLimit());
@@ -44,7 +44,7 @@ class CompositeRateLimitTraitTest extends AbstractTestCase {
      */
     public function testSetRemaining(): void {
 
-        $obj = new TestCompositeRateLimitTrait();
+        $obj = new TestCompoundRateLimitTrait();
 
         $obj->setRemaining(1);
         $this->assertEquals(1, $obj->getRemaining());
@@ -61,7 +61,7 @@ class CompositeRateLimitTraitTest extends AbstractTestCase {
         // Set a Date/time mock.
         $reset = new DateTime();
 
-        $obj = new TestCompositeRateLimitTrait();
+        $obj = new TestCompoundRateLimitTrait();
 
         $obj->setReset($reset);
         $this->assertSame($reset, $obj->getReset());
