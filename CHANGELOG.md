@@ -1,9 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [2.0.0](https://github.com/webeweb/traits-library/tree/v2.0.0) (2021-08-11)
 
 - Add string customer code trait
+- Rename Composite package 
 
 ### [1.2.0](https://github.com/webeweb/traits-library/tree/v1.2.0) (2021-07-21)
 
