@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Composite;
+namespace WBW\Library\Traits\Tests\Compounds;
 
 use WBW\Library\Traits\Tests\AbstractTestCase;
-use WBW\Library\Traits\Tests\Fixtures\Composite\TestCompositeTimestampableTrait;
+use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundTimestampableTrait;
 
 /**
- * Composite timestampable trait test.
+ * Compound timestampable trait test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Tests\Composite
+ * @package WBW\Library\Traits\Tests\Compounds
  */
-class CompositeTimestampableTraitTest extends AbstractTestCase {
+class CompoundTimestampableTraitTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.
@@ -29,7 +29,7 @@ class CompositeTimestampableTraitTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new TestCompositeTimestampableTrait();
+        $obj = new TestCompoundTimestampableTrait();
 
         $this->assertNull($obj->getCreatedAt());
         $this->assertNull($obj->getUpdatedAt());

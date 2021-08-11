@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Composite;
+namespace WBW\Library\Traits\Compounds;
 
 use WBW\Library\Traits\DateTimes\DateTimeCreatedAtTrait;
 use WBW\Library\Traits\DateTimes\DateTimeUpdatedAtTrait;
 
 /**
- * Composite timestampable trait.
+ * Compound timestampable trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Composite
+ * @package WBW\Library\Traits\Compounds
  */
-trait CompositeTimestampableTrait {
+trait CompoundTimestampableTrait {
 
     use DateTimeCreatedAtTrait;
     use DateTimeUpdatedAtTrait;
