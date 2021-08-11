@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Composite;
+namespace WBW\Library\Traits\Compounds;
 
 use WBW\Library\Traits\Strings\StringAddresseeTrait;
 use WBW\Library\Traits\Strings\StringCountryTrait;
@@ -19,12 +19,12 @@ use WBW\Library\Traits\Strings\StringPostalCodeTrait;
 use WBW\Library\Traits\Strings\StringStreetNameTrait;
 
 /**
- * Composite address trait.
+ * Compound address trait.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Composite
+ * @package WBW\Library\Traits\Compounds
  */
-trait CompositeAddressTrait {
+trait CompoundAddressTrait {
 
     use StringAddresseeTrait;
     use StringCountryTrait;

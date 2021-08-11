@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Traits\Tests\Composite;
+namespace WBW\Library\Traits\Tests\Compounds;
 
 use WBW\Library\Traits\Tests\AbstractTestCase;
-use WBW\Library\Traits\Tests\Fixtures\Composite\TestCompositeAddressTrait;
+use WBW\Library\Traits\Tests\Fixtures\Compounds\TestCompoundAddressTrait;
 
 /**
- * Composite address trait test.
+ * Compound address trait test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Traits\Tests\Composite
+ * @package WBW\Library\Traits\Tests\Compounds
  */
-class CompositeAddressTraitTest extends AbstractTestCase {
+class CompoundAddressTraitTest extends AbstractTestCase {
 
     /**
      * Tests the setAddresseeDescription() method.
@@ -29,7 +29,7 @@ class CompositeAddressTraitTest extends AbstractTestCase {
      */
     public function testSetAddresseeDescription(): void {
 
-        $obj = new TestCompositeAddressTrait();
+        $obj = new TestCompoundAddressTrait();
 
         $obj->setAddresseeDescription("addresseeDescription");
         $this->assertEquals("addresseeDescription", $obj->getAddresseeDescription());
@@ -42,7 +42,7 @@ class CompositeAddressTraitTest extends AbstractTestCase {
      */
     public function test__construct() {
 
-        $obj = new TestCompositeAddressTrait();
+        $obj = new TestCompoundAddressTrait();
 
         $this->assertNull($obj->getAddressee());
         $this->assertNull($obj->getCountry());
